@@ -16,6 +16,7 @@ BuildRequires: perl(Clone::Fast)
 BuildRequires: perl(MRO::Compat)
 BuildRequires: perl(RPC::XML)
 BuildRequires: perl(RPC::XML::Parser)
+BuildRequires: perl(Class::Data::Inheritable)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
